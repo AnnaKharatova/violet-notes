@@ -4,12 +4,6 @@ const nextConfig = {
     assetPrefix: process.env.NODE_ENV === 'production' ? '/violet-notes/' : '/',
     output: 'export',
     distDir: 'out',
-    rewrites: async () => [
-        {
-          source: '/',
-          destination: '/register',
-        },
-      ],
 };
 
 export default nextConfig
