@@ -3,7 +3,7 @@
 const nextConfig = {
     assetPrefix: process.env.NODE_ENV === 'production' ? '/violet-notes/' : '/',
     output: 'export',
-    distDir: 'public/out',
+    distDir: 'out',
 };
 
 export default nextConfig
